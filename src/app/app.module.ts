@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponentModule } from './components/header/header.component.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AvatarComponentModule } from './components/avatar/avatar.component.module';
-import { MyCardComponent } from './components/my-card/my-card.component';
 import { MyCardComponentModule } from './components/my-card/my-card.component.module';
+import { RatingViewComponentModule } from './components/rating-view/rating-view.component.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +17,7 @@ import { MyCardComponentModule } from './components/my-card/my-card.component.mo
     BrowserAnimationsModule,
     AvatarComponentModule,
     MyCardComponentModule,
+    RatingViewComponentModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

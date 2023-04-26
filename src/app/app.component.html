@@ -1,3 +1,4 @@
 <app-header></app-header>
 <app-avatar imageUrl="https://pbs.twimg.com/media/BCN2uyWCcAA24pR.png" text="halo"></app-avatar>
 <card [card]="{title:'tytul', description:'opis'}"></card>
+<rating-view [max]="5" [value]="3.7" (clicked)="test($event)"></rating-view>
