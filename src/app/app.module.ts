@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AvatarComponentModule } from './components/avatar/avatar.component.module';
 import { MyCardComponentModule } from './components/my-card/my-card.component.module';
 import { RatingViewComponentModule } from './components/rating-view/rating-view.component.module';
+import { ReadMorePanelComponentModule } from './components/read-more-panel/read-more-panel.component.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,8 +19,9 @@ import { RatingViewComponentModule } from './components/rating-view/rating-view.
     AvatarComponentModule,
     MyCardComponentModule,
     RatingViewComponentModule,
+    ReadMorePanelComponentModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
